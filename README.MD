@@ -1,4 +1,4 @@
-#multinode-microk8s
+# multinode-microk8s
 
 This repository illustrates how to set up a set of virtual machines with microk8s in a local machine to form a multi-node kubernetes cluster with HA support for development or testing.
 
@@ -7,7 +7,7 @@ This repository illustrates how to set up a set of virtual machines with microk8
 3. Use ansible to provision setup
 4. Use microk8s to setup kubernetes
 
-##Run
+## Run
 
 ```shell script
 # start up
@@ -24,13 +24,13 @@ vagrant resume
 vagrant destroy --force
 ```
 
-##Setup kube config
+## Setup kube config
 ```shell script
 # Run after cluster setup
 ./setup-kubeconfig.sh
 ```
 
-##Tools and Environment
+## Tools and Environment
 
 * MacOS Catalina
 * Ansible 2.9.11
